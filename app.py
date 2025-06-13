@@ -8,7 +8,6 @@ from flask_cors import CORS
 import numpy as np
 
 app = Flask(__name__)
-CORS(app) 
 
 try:
     df = pd.read_csv('cleaned_movie_df.csv')
