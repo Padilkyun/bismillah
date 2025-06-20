@@ -4,7 +4,6 @@ from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from flask_cors import CORS
 import numpy as np
 
 app = Flask(__name__)
